@@ -53,6 +53,7 @@ int chooseBadDoor(int good, int choice){
         toShow = rand()%3 +1;
     }
     cout << "Door number " << toShow << " is a bad door" << endl;
+    return toShow;
 }
 
 int chooseGoodDoor(){
